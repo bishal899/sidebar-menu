@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  position: relative;
+  background: url("images/background.jpg") right no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.main .section {
+  position: fixed;
+  height: 100vh;
+  width: 280px;
+  left: -280px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+}
+
+.section .logo {
+  position: absolute;
+  height: 60px;
+  width: 100%;
+}
+
+.section .logo h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  position: absolute;
+  line-height: 60px;
+  left: 60px;
+}
+
+.section .side-menu {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+}
+
+.section .side-menu ul {
+  list-style-type: none;
+}
+
+.section .side-menu ul li {
+  padding: 14px 28px;
+  margin-top: 8px;
+}
+
+.section .side-menu ul li:hover {
+  border-left: 2px solid #fff;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+.side-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.side-menu ul li a i {
+  padding-right: 15px;
+}
+
+.section .social-media {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.social-media ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.social-media ul li {
+  padding-right: 15px;
+}
+
+.social-media ul li a {
+  color: #fff;
+  opacity: 0.5;
+  transition: all 0.2s linear;
+}
+
+.social-media ul li a:hover {
+  opacity: 1;
+}
+
+.social-media ul li a i {
+  font-size: 20px;
+}
+
+#checkbox {
+  display: none;
+}
+
+.main .btn-one {
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  left: 16px;
+  line-height: 60px;
+  opacity: 1;
+  transition: all 0.1s;
+}
+
+.section .btn-two {
+  position: absolute;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 200;
+  line-height: 60px;
+  right: 20px;
+  transition: all 0.3s linear;
+}
+
+label i {
+  cursor: pointer;
+}
+
+#checkbox:checked ~ .section {
+  left: 0;
+}
+
+#checkbox:checked ~ .btn-one {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  height: 100vh;
+  background: url("images/background.jpg") right no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+.section {
+  height: 100%;
+  width: 275px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  backdrop-filter: blur(6px);
+}
+.section h2 {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 20px;
+}
+.section .first {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.first li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 30px;
+  padding: 15px;
+  font-weight: 300;
+}
+.first li:hover {
+  border-left: 3px solid #fff;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+}
+.first li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.second {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 20px;
+}
+.second li a {
+  color: #fff;
+  opacity: 0.5;
+  padding: 0 10px;
+  transition: 0.2s;
+  font-size: 25px;
+}
+.second li a:hover {
+  opacity: 1;
+}
+#checkbox {
+  visibility: hidden;
+} */
